@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: 41d9dd28ff512067bc2cb2bf76b589f719aa0698
 
       - name: Install Node.js
         uses: actions/setup-node@v4
